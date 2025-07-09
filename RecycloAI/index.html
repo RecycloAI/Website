@@ -1,0 +1,965 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>RecycloAI</title>
+
+  <!-- Favicon -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- Custom CSS -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Cuprum:wght@500;600;700&family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+  <!-- Preload Critical Resources -->
+  <link rel="preload" as="image" href="./assets/images/researchlogo.png">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+
+<body>
+
+  <!-- Header -->
+  <header class="header active">
+    <div class="container">
+      <a href="#" class="logo">RecycloAI</a>
+
+      <li>
+        <!-- Dark Mode Toggle -->
+        <button class="nav-open-btn">☰</button>
+
+        
+      </li>
+           
+      <!-- Desktop Navigation -->
+      <nav class="navbar" data-navbar>
+        
+        <ul class="navbar-list">
+          <li><a href="#home" class="navbar-link" data-nav-link> Home</a></li>
+          <li><a href="#about" class="navbar-link" data-nav-link>About</a></li>
+          <li><a href="#services" class="navbar-link" data-nav-link>Services</a></li>
+          <li><a href="#features" class="navbar-link" data-nav-link>Features</a></li>
+          <li><a href="#portfolio" class="navbar-link" data-nav-link>Blog</a></li>
+          <li><a href="#footer" class="navbar-link" data-nav-link>Contact Us</a></li>
+        </ul>
+      </nav>
+  
+      <!-- Mobile Menu Button -->
+      <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+        <ion-icon name="menu-outline" aria-hidden="true"></ion-icon>
+      </button>
+  
+      <div class="overlay" data-nav-toggler data-overlay></div>
+    </div>
+  </header>   
+  
+
+  <!-- Main Content -->
+  <main>
+    <article>
+
+<!-- Hero Section -->
+<section class="hero" id="home" aria-label="hero">
+  <div class="container">
+    <div class="hero-content">
+      <p class="hero-subtitle has-before" style="font-size: x-large;">Smarter Recycling. Powered by AI.</p>
+      <h1 class="h1 hero-title">RecycloAI</h1>
+      <p class="hero-text">
+        RecycloAI helps you identify and sort waste in seconds — improving recycling accuracy and promoting a circular economy.
+      </p>
+      <div class="btn-group">
+        <a href="#about" class="btn btn-primary">Discover More</a>
+      </div>
+    </div>
+    <figure class="hero-banner img-holder">
+      <img src="./assets/images/RecycloAI.png" width="802" height="650" alt="RecycloAI Hero Banner" class="img-cover">
+    </figure>
+  </div>
+</section>
+<hr style="height: 20px;">
+
+      <!-- About Section -->
+<!-- Redesigned About Section -->
+<section class="about" id="about" aria-label="About Us" data-aos="fade-up">
+  <div class="container">
+    <figure class="about-banner" data-aos="fade-right" data-aos-delay="50">
+      <img src="./assets/images/ABOUT US.png" alt="About Us" loading="lazy" class="hover-shine">
+    </figure>
+
+    <div class="about-content" data-aos="fade-left" data-aos-delay="100">
+      <h2 class="h2-sm section-title stroke-text" style="color:green;font-size: 40px;">About Us</h2>
+      
+      <svg class="section-divider" width="80" height="8" viewBox="0 0 80 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+        <path d="M0 4H80" stroke="url(#pulse-gradient)" stroke-width="2" stroke-linecap="round"/>
+        <defs>
+          <linearGradient id="pulse-gradient" x1="0" y1="0" x2="100%" y2="0">
+            <stop offset="0%" stop-color="#4E6BFF"/>
+            <stop offset="100%" stop-color="#2AD2E2"/>
+          </linearGradient>
+        </defs>
+      </svg>
+      
+      <p class="section-text">
+       We envision a world where waste is no longer wasted but reused, recycled, and repurposed with intelligence.
+      </p>
+      
+      <ul class="about-list">
+        <li class="has-before hover-lift">Promote a circular economy</li>
+        <li class="has-before hover-lift">Empower users through education and tools</li>
+        <li class="has-before hover-lift">Reduce global landfill waste by enabling smart sorting</li>
+      </ul>
+      
+      <div class="btn-group">
+        <a href="#services" class="btn btn-primary liquid-btn">Know More</a>
+        
+      </div>
+    </div>
+  </div>
+</section>
+<hr style="height: 20px;">
+     <!-- Team Members Section -->
+<!-- === PREMIUM TEAM SECTION === -->
+<section class="elite-team" id="team" aria-label="Our Elite Team">
+  <div class="elite-container">
+    <!-- SECTION HEADER -->
+    <div class="elite-header" data-aos="fade-up">
+      <h2 class="elite-title">
+        <span class="elite-title-main">Meet Our</span>
+        <span class="elite-title-accent">Expert Innovators</span>
+      </h2>
+      <p class="elite-subtitle">
+        The brilliant minds powering our innovation engine
+      </p>
+    </div>
+
+    <!-- LEADER CARD (CENTERED) -->
+    <div class="elite-leader-wrapper">
+      <div class="elite-leader-card" data-aos="fade-up" data-aos-delay="50">
+        <div class="elite-card-inner">
+          <div class="elite-card-visual">
+            <div class="elite-image-container">
+              <img src="./assets/images/Dr Lawrence Nderu.jpeg" alt="Dr. Lawrence Nderu" loading="lazy" class="elite-card-image">
+              <div class="elite-image-overlay"></div>
+            </div>
+          </div>
+          <div class="elite-card-content">
+            <h3 class="elite-card-name">Dr. Lawrence Nderu</h3>
+            <p class="elite-card-position">Supervising Director</p>
+            <div class="elite-card-divider">
+              <svg width="40" height="8" viewBox="0 0 40 8" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M0 4H40" stroke="#2AD2E2" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+            </div>
+            <p class="elite-card-bio">Visionary leader driving our strategic direction and technological innovation.</p>
+            <a href="https://www.linkedin.com/in/dr-lawrence-nderu/" class="elite-card-cta">
+              <span>Connect on LinkedIn</span>
+              <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 4L10.59 5.41L16.17 11H4V13H16.17L10.59 18.59L12 20L20 12L12 4Z" fill="currentColor"/>
+              </svg>
+            </a>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TEAM MEMBERS IN SINGLE ROW -->
+    <div class="elite-team-members">
+      <div class="elite-team-row">
+        <!-- MEMBER 1 -->
+        <div class="elite-team-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="elite-card-inner">
+            <div class="elite-card-visual">
+              <div class="elite-image-container">
+                <img src="./assets/images/josiah.jpg" alt="Josiah Ndirangu" loading="lazy" class="elite-card-image">
+                <div class="elite-image-overlay"></div>
+              </div>
+            </div>
+            <div class="elite-card-content">
+              <h3 class="elite-card-name">Josiah Ndirangu</h3>
+              <p class="elite-card-position">Full-stack Developer</p>
+              <div class="elite-social-links">
+                <a href="https://www.linkedin.com/in/josiah-ndirangu-28315530b/" class="elite-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MEMBER 2 -->
+        <div class="elite-team-card" data-aos="fade-up" data-aos-delay="150">
+          <div class="elite-card-inner">
+            <div class="elite-card-visual">
+              <div class="elite-image-container">
+                <img src="./assets/images/geoffrey.jpg" alt="Geoffrey Gitau" loading="lazy" class="elite-card-image">
+                <div class="elite-image-overlay"></div>
+              </div>
+            </div>
+            <div class="elite-card-content">
+              <h3 class="elite-card-name">Geoffrey Gitau</h3>
+              <p class="elite-card-position">Backend Developer</p>
+              <div class="elite-social-links">
+                <a href="https://www.linkedin.com/in/geofrey-gitau-85813836a/" class="elite-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MEMBER 3 -->
+        <div class="elite-team-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="elite-card-inner">
+            <div class="elite-card-visual">
+              <div class="elite-image-container">
+                <img src="./assets/images/bmw.png" alt="Boniface Mwangi" loading="lazy" class="elite-card-image">
+                <div class="elite-image-overlay"></div>
+              </div>
+            </div>
+            <div class="elite-card-content">
+              <h3 class="elite-card-name">Boniface Mwangi</h3>
+              <p class="elite-card-position">Full Stack Engineer</p>
+              <div class="elite-social-links">
+                <a href="https://www.linkedin.com/in/warigi-m-boniface-053098309" class="elite-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- MEMBER 4 -->
+        <div class="elite-team-card" data-aos="fade-up" data-aos-delay="250">
+          <div class="elite-card-inner">
+            <div class="elite-card-visual">
+              <div class="elite-image-container">
+                <img src="./assets/images/weke.jpg" alt="Daniel Wekesa" loading="lazy" class="elite-card-image">
+                <div class="elite-image-overlay"></div>
+              </div>
+            </div>
+            <div class="elite-card-content">
+              <h3 class="elite-card-name">Daniel Wekesa</h3>
+              <p class="elite-card-position">Front-end Developer</p>
+              <div class="elite-social-links">
+                <a href="https://www.linkedin.com/in/daniel-wekesa-1137a6266/" class="elite-social-link">
+                  <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path d="M16 8C17.5913 8 19.1174 8.63214 20.2426 9.75736C21.3679 10.8826 22 12.4087 22 14V21H18V14C18 13.4696 17.7893 12.9609 17.4142 12.5858C17.0391 12.2107 16.5304 12 16 12C15.4696 12 14.9609 12.2107 14.5858 12.5858C14.2107 12.9609 14 13.4696 14 14V21H10V14C10 12.4087 10.6321 10.8826 11.7574 9.75736C12.8826 8.63214 14.4087 8 16 8Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M6 9H2V21H6V9Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    <path d="M4 6C5.10457 6 6 5.10457 6 4C6 2.89543 5.10457 2 4 2C2.89543 2 2 2.89543 2 4C2 5.10457 2.89543 6 4 6Z" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                  </svg>
+                </a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+<hr style="height: 20px;">
+
+      <!-- === PREMIUM SERVICES SECTION === -->
+<section class="eco-services" id="services" aria-label="Sustainability Services">
+  <div class="eco-services-container">
+    <!-- HEADER -->
+    <div class="eco-services-header" data-aos="fade-down">
+      <span class="eco-services-subtitle">Our Target</span>
+      <h2 class="eco-services-title">
+        <span class="eco-title-fill">Sustainable</span>
+        <span class="eco-title-stroke">Impact</span>
+      </h2>
+      <p class="eco-services-description">
+        AI-driven tools to revolutionize waste management and sustainability for all.
+      </p>
+    </div>
+
+    <!-- SERVICES GRID -->
+    <div class="eco-services-grid">
+      <!-- SERVICE 1: Individuals -->
+      <div class="eco-service-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="eco-service-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#2ECC71" stroke-width="2"/>
+            <path d="M12 16V8M8 12H16" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>For Individuals</h3>
+        <p>Scan waste, sort smarter, shrink your footprint.</p>
+        <ul class="eco-service-features">
+          <li>AI Waste Scanning</li>
+          <li>Sorting Guides</li>
+          <li>Footprint Tracking</li>
+        </ul>
+        <div class="eco-service-hover"></div>
+      </div>
+
+      <!-- SERVICE 2: Cities/Municipalities -->
+      <div class="eco-service-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="eco-service-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 21H21M6 21V9M18 21V5M12 21V13" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M9 9H15M9 13H15" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Cities & Municipalities</h3>
+        <p>Smart analytics, better recycling, smart bin integration.</p>
+        <ul class="eco-service-features">
+          <li>Waste Analytics</li>
+          <li>Smart Bin Sync</li>
+          <li>Recycling Boost</li>
+        </ul>
+        <div class="eco-service-hover"></div>
+      </div>
+
+      <!-- SERVICE 3: Businesses/Offices -->
+      <div class="eco-service-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="eco-service-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M3 7H21V21H3V7Z" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7 3H17V7" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M7 11H17M7 15H17" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Businesses & Offices</h3>
+        <p>Employee recycling, track sustainability metrics.</p>
+        <ul class="eco-service-features">
+          <li>Recycling Training</li>
+          <li>Sustainability Metrics</li>
+          <li>Waste Reduction</li>
+        </ul>
+        <div class="eco-service-hover"></div>
+      </div>
+
+      <!-- SERVICE 4: Educational Institutions -->
+      <div class="eco-service-card" data-aos="zoom-in" data-aos-delay="400">
+        <div class="eco-service-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 3L2 8L12 13L22 8L12 3Z" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M2 8V16L12 21L22 16V8" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M12 13V21" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Educational Institutions</h3>
+        <p>Interactive AI tools, sustainability challenges.</p>
+        <ul class="eco-service-features">
+          <li>AI Learning Tools</li>
+          <li>Sustainability Challenges</li>
+          <li>Campus Analytics</li>
+        </ul>
+        <div class="eco-service-hover"></div>
+      </div>
+
+      <!-- SERVICE 5: Custom Services -->
+      <div class="eco-service-card" data-aos="zoom-in" data-aos-delay="500">
+        <div class="eco-service-icon">
+          <svg width="40" height="40" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <path d="M12 22C17.5228 22 22 17.5228 22 12C22 6.47715 17.5228 2 12 2C6.47715 2 2 6.47715 2 12C2 17.5228 6.47715 22 12 22Z" stroke="#2ECC71" stroke-width="2"/>
+            <path d="M12 8V16M8 12H16" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+            <path d="M16 8L18 6M16 16L18 18M8 8L6 6M8 16L6 18" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          </svg>
+        </div>
+        <h3>Custom Services</h3>
+        <p>Waste data APIs, consulting, pilot programs.</p>
+        <ul class="eco-service-features">
+          <li>Waste Data APIs</li>
+          <li>Custom Consulting</li>
+          <li>Pilot Programs</li>
+        </ul>
+        <div class="eco-service-hover"></div>
+      </div>
+    </div>
+
+    <!-- CTA -->
+    <div class="eco-services-cta" data-aos="fade-up">
+      <a href="#contact" class="eco-cta-button">
+        <span>Join the Green Revolution</span>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+<hr style="height: 20px;">
+<!-- === PREMIUM FEATURES SECTION === -->
+<section class="eco-features" id="features" aria-label="RecycloAI Features">
+  <div class="eco-container">
+    <!-- SECTION HEADER -->
+    <div class="eco-header" data-aos="fade-down">
+      <span class="eco-subtitle">Our Technology</span>
+      <h2 class="eco-title">
+        <span class="eco-title-fill">Smart</span>
+        <span class="eco-title-stroke">Recycling Solutions</span>
+      </h2>
+      <div class="eco-divider">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          <path d="M12 8V16M8 12H16" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="eco-description">
+        Advanced AI tools to make recycling intuitive, impactful, and engaging.
+      </p>
+    </div>
+
+    <!-- FEATURES GRID -->
+    <div class="eco-features-grid">
+      <!-- FEATURE 1 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="100">
+        <div class="eco-feature-media">
+          <img src="https://miro.medium.com/v2/resize:fit:700/0*UZ5SoJF5gi8actxO.png" alt="AI waste detection" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">01</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">AI Waste Detection</h3>
+          <p class="eco-feature-text">Instantly identify waste types with AI and computer vision.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>100+ material types</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Plastic, glass, metal</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Paper, organic waste</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 2 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="150">
+        <div class="eco-feature-media">
+          <img src="https://www.mdpi.com/sustainability/sustainability-14-10226/article_deploy/html/images/sustainability-14-10226-g001.png" alt="Smart disposal instructions" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">02</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">Smart Disposal</h3>
+          <p class="eco-feature-text">Get tailored recycling guidance based on local rules.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Local guidelines</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Step-by-step prep</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Smart bin sync</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 3 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="200">
+        <div class="eco-feature-media">
+          <img src="https://images.unsplash.com/photo-1551288049-bebda4e38f71?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Eco dashboard" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">03</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">Eco Dashboard</h3>
+          <p class="eco-feature-text">Track recycling impact with real-time analytics.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Scan history</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>CO2 savings</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Landfill diversion</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 4 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="250">
+        <div class="eco-feature-media">
+          <img src="https://images.unsplash.com/photo-1542744173-8e7e53415bb0?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Gamification features" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">04</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">Gamification</h3>
+          <p class="eco-feature-text">Earn badges and compete in eco-challenges.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Point system</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Weekly challenges</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Eco-badges</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 5 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="300">
+        <div class="eco-feature-media">
+          <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Machine learning" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">05</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">Self-Learning AI</h3>
+          <p class="eco-feature-text">AI improves via community-driven feedback.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Community learning</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Monthly updates</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Feedback system</span>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <!-- FEATURE 6 -->
+      <div class="eco-feature-card" data-aos="zoom-in" data-aos-delay="350">
+        <div class="eco-feature-media">
+          <img src="https://images.unsplash.com/photo-1521791136064-7986c2920216?ixlib=rb-4.0.3&auto=format&fit=crop&w=1000&q=80" alt="Community leaderboard" loading="lazy" class="eco-feature-image">
+          <div class="eco-feature-number">06</div>
+        </div>
+        <div class="eco-feature-content">
+          <h3 class="eco-feature-title">Leaderboards</h3>
+          <p class="eco-feature-text">Compete with recyclers in your community.</p>
+          <div class="eco-feature-details">
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Local rankings</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Group challenges</span>
+            </div>
+            <div class="eco-detail-item">
+              <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M12 2L12 22M2 12H22" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+              </svg>
+              <span>Top recyclers</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<hr style="height: 20px;color: green;">
+
+      
+
+      
+
+<!-- === PREMIUM PORTFOLIO SECTION === -->
+<!-- === ECO BLOG SECTION === -->
+<section class="eco-blog" id="portfolio" aria-label="RecycloAI Blog">
+  <div class="eco-container">
+    <!-- SECTION HEADER -->
+    <div class="eco-header" data-aos="fade-down">
+      <span class="eco-subtitle">Eco Insights</span>
+      <h2 class="eco-title">
+        <span class="eco-title-fill">Green</span>
+        <span class="eco-title-stroke">Knowledge Hub</span>
+      </h2>
+      <div class="eco-divider">
+        <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          <path d="M12 8V16M8 12H16" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+      </div>
+      <p class="eco-description">
+        Discover tips, tech updates, and inspiring stories to fuel the recycling revolution.
+      </p>
+    </div>
+
+    <!-- BLOG FILTER -->
+    <div class="eco-filter" data-aos="fade-up" data-aos-delay="50">
+      <button class="filter-btn active" data-filter="all">All Posts</button>
+      <button class="filter-btn" data-filter="education">Recycling Tips</button>
+      <button class="filter-btn" data-filter="tech">Tech Insights</button>
+      <button class="filter-btn" data-filter="updates">Project Updates</button>
+      <button class="filter-btn" data-filter="stories">Success Stories</button>
+    </div>
+
+    <!-- BLOG GRID -->
+    <div class="eco-blog-grid">
+      <!-- POST 1 - EDUCATION -->
+      <article class="eco-post education" data-aos="zoom-in" data-aos-delay="100">
+        <div class="eco-post-image">
+          <img src="https://images.unsplash.com/photo-1600585154340-be6161a56a0c?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Plastic recycling mistakes" loading="lazy">
+          <span class="eco-post-category">Recycling Tips</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">June 15, 2024</span>
+            <span class="eco-post-author">By RecycloAI Team</span>
+          </div>
+          <h3 class="eco-post-title">10 Plastic Recycling Mistakes to Avoid</h3>
+          <p class="eco-post-excerpt">Learn common errors that harm recycling efforts and how to fix them.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- POST 2 - TECH -->
+      <article class="eco-post tech" data-aos="zoom-in" data-aos-delay="150">
+        <div class="eco-post-image">
+          <img src="https://images.unsplash.com/photo-1620712943543-bcc4688e7485?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Machine learning model" loading="lazy">
+          <span class="eco-post-category">Tech Insights</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">May 28, 2024</span>
+            <span class="eco-post-author">By Boniface Mwangi</span>
+          </div>
+          <h3 class="eco-post-title">Inside RecycloAI's Machine Learning</h3>
+          <p class="eco-post-excerpt">Explore how our AI model was trained to recognize waste accurately.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- POST 3 - UPDATES -->
+      <article class="eco-post updates" data-aos="zoom-in" data-aos-delay="200">
+        <div class="eco-post-image">
+          <img src="https://images.unsplash.com/photo-1555774698-0b77e0d5fac6?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Barcode scanning" loading="lazy">
+          <span class="eco-post-category">Project Updates</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">April 10, 2024</span>
+            <span class="eco-post-author">By Josiah Ndirangu</span>
+          </div>
+          <h3 class="eco-post-title">New: Barcode Recognition Feature</h3>
+          <p class="eco-post-excerpt">Scan barcodes for instant recycling info with our latest update.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- POST 4 - STORIES -->
+      <article class="eco-post stories" data-aos="zoom-in" data-aos-delay="250">
+        <div class="eco-post-image">
+          <img src="https://images.unsplash.com/photo-1582213782179-e0d53f98f2ca?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="School recycling program" loading="lazy">
+          <span class="eco-post-category">Success Stories</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">March 22, 2024</span>
+            <span class="eco-post-author">By Geoffrey Gitau</span>
+          </div>
+          <h3 class="eco-post-title">School Boosts Recycling by 80%</h3>
+          <p class="eco-post-excerpt">St. Mary's Academy transformed waste management with RecycloAI.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- POST 5 - EDUCATION -->
+      <article class="eco-post education" data-aos="zoom-in" data-aos-delay="300">
+        <div class="eco-post-image">
+          <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1000&q=80" alt="Composting guide" loading="lazy">
+          <span class="eco-post-category">Recycling Tips</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">February 10, 2024</span>
+            <span class="eco-post-author">By RecycloAI Team</span>
+          </div>
+          <h3 class="eco-post-title">Ultimate Guide to Composting at Home</h3>
+          <p class="eco-post-excerpt">Start composting with these simple steps to reduce organic waste.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+
+      <!-- POST 6 - STORIES -->
+      <article class="eco-post stories" data-aos="zoom-in" data-aos-delay="350">
+        <div class="eco-post-image">
+          <img src="https://c8.alamy.com/comp/2YFX0BX/waste-collection-concept-team-of-people-engaging-in-recycling-to-protect-the-environment-community-clean-up-eco-friendly-mindset-vector-illustration-2YFX0BX.jpg" alt="Community cleanup" loading="lazy">
+          <span class="eco-post-category">Success Stories</span>
+        </div>
+        <div class="eco-post-content">
+          <div class="eco-post-meta">
+            <span class="eco-post-date">January 18, 2024</span>
+            <span class="eco-post-author">By Daniel Wekesa</span>
+          </div>
+          <h3 class="eco-post-title">Community Cleanup Cuts Waste by 50%</h3>
+          <p class="eco-post-excerpt">How a Nairobi neighborhood used RecycloAI to transform their streets.</p>
+          <a href="#" class="eco-post-link">
+            Read More
+            <svg width="16" height="16" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+              <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+            </svg>
+          </a>
+        </div>
+      </article>
+    </div>
+
+    <!-- BLOG CTA -->
+    <div class="eco-cta" data-aos="fade-up" data-aos-delay="400">
+      <a href="#" class="eco-cta-button">
+        Explore All Articles
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M5 12H19M19 12L12 5M19 12L12 19" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
+        </svg>
+      </a>
+    </div>
+  </div>
+</section>
+
+<hr style="height: 20px;color: green;">
+
+<!-- Collaborators Section -->
+<section class="eco-collaborators" id="collaborators" aria-label="Our Collaborators">
+  <div class="eco-collaborators-container">
+    <!-- HEADER -->
+    <div class="eco-collaborators-header" data-aos="fade-down">
+      <h2 class="eco-collaborators-title">
+        <span class="eco-title-stroke">Trusted</span>
+        <span class="eco-title-fill">Collaborators</span>
+      </h2>
+      <div class="eco-collaborators-divider">
+        <span class="eco-divider-line"></span>
+        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+          <path d="M12 3C7.02944 3 3 7.02944 3 12C3 16.9706 7.02944 21 12 21C16.9706 21 21 16.9706 21 12" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+          <path d="M12 8V16M8 12H16" stroke="#2ECC71" stroke-width="2" stroke-linecap="round"/>
+        </svg>
+        <span class="eco-divider-line"></span>
+      </div>
+      <p class="eco-collaborators-description">
+        Meet our trusted collaborators who help us drive innovation forward.
+      </p>
+    </div>
+
+    <!-- COLLABORATORS GRID -->
+    <div class="eco-collaborators-grid" data-aos="zoom-in" data-aos-delay="100">
+      <!-- COLLABORATOR 1 -->
+      <div class="eco-collaborator-card">
+        <div class="eco-collaborator-image">
+          <img src="./assets/images/jhub.svg" alt="Collaborator 1" loading="lazy">
+        </div>
+        <div class="eco-collaborator-content">
+          <h3>JHUB AFRICA</h3>
+          <p></p>
+        </div>
+        <div class="eco-card-border"></div>
+      </div>
+
+      <!-- COLLABORATOR 2 -->
+      <div class="eco-collaborator-card">
+        <div class="eco-collaborator-image">
+          <img src="./assets/images/jkuat logo.jpg" alt="Collaborator 2" loading="lazy">
+        </div>
+        <div class="eco-collaborator-content">
+          <h3>JKUAT</h3>
+          <p></p>
+        </div>
+        <div class="eco-card-border"></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+  <!-- 
+    - #FOOTER
+  -->
+  <footer class="rhx-footer" id="footer">
+    <div class="rhx-footer-container">
+      <div class="rhx-footer-grid">
+        
+        <!-- Brand Column -->
+        <div class="rhx-footer-brand">
+          <h3 class="rhx-footer-logo">RecycloAI</h3>
+          <p class="rhx-footer-text">
+            Innovative digital solutions for your business growth.
+          </p>
+          <div class="rhx-social-links">
+            
+            <a href="https://wa.me/+254769257881" class="rhx-social-link" aria-label="WhatsApp">
+              <svg class="rhx-social-icon" viewBox="0 0 24 24"><path d="M17.47 14.43a6.34 6.34 0 0 1-5.81 3.94 6.66 6.66 0 0 1-3.26-.87l-3.38 1.12 1.15-3.3a6.33 6.33 0 0 1-1-3.37 6.3 6.3 0 0 1 6.3-6.3 6.25 6.25 0 0 1 4.5 1.89 6.3 6.3 0 0 1 1.5 4.41zm-1.77-8.8a5.25 5.25 0 0 0-3.73-1.58 5.3 5.3 0 0 0-5.3 5.3 5.23 5.23 0 0 0 .85 2.81l.2.34-.74 2.12 2.18-.72.33.2a5.26 5.26 0 0 0 2.61.7 5.3 5.3 0 0 0 5.3-5.3 5.23 5.23 0 0 0-1.5-3.67zM12 2a10 10 0 0 0-8.6 15.1L1 22l5-1.38A10 10 0 1 0 12 2zm0 18.5a8.5 8.5 0 0 1-4.63-1.37l-.32-.2-3.38.89.9-3.36-.21-.33A8.5 8.5 0 1 1 12 20.5z"/></svg>
+            </a>
+            <a href="https://www.linkedin.com/in/recycloai-ai-11173a36a/" class="rhx-social-link" aria-label="LinkedIn">
+              <svg class="rhx-social-icon" viewBox="0 0 24 24"><path d="M20.45 20.45h-3.56v-5.57c0-1.33 0-3-1.87-3s-2.16 1.46-2.16 3v5.57h-3.56V9.77h3.42v1.45h.05a3.48 3.48 0 0 1 3.14-1.72c3.36 0 4 2.21 4 5.1v6.85zM6.88 8.56a2.07 2.07 0 0 1-2.1-2.05 2.07 2.07 0 1 1 2.1 2.05zm1.78 11.89h-3.56V9.77h3.56v10.68zM22.23 2H1.77C.79 2 0 2.77 0 3.73v16.54C0 21.23.79 22 1.77 22h20.46c.98 0 1.77-.77 1.77-1.73V3.73C24 2.77 23.21 2 22.23 2z"/></svg>
+            </a>
+            <a href="mailto:recycloai20@gmail.com" class="rhx-social-link" aria-label="Email">
+              <svg class="rhx-social-icon" viewBox="0 0 24 24"><path d="M24 5.46v13.08c0 .73-.6 1.33-1.33 1.33H21V6.67h1.67c.73 0 1.33.6 1.33 1.33zM5.33 4H18v16H5.33A1.33 1.33 0 0 1 4 18.67V5.33C4 4.6 4.6 4 5.33 4zm7.08 8.67L6.67 6v12l5.74-5.33z"/><path d="M19.33 4H21c.73 0 1.33.6 1.33 1.33v.67L12 12 1.67 6V5.33C1.67 4.6 2.27 4 3 4h1.33H18zM1.67 7l10 6 10-6v11.33c0 .73-.6 1.33-1.33 1.33H3c-.73 0-1.33-.6-1.33-1.33V7z"/></svg>
+            </a>
+           <a href="https://www.instagram.com/recyclo_ai/" class="rhx-social-link" aria-label="Instagram">
+  <svg class="rhx-social-icon" viewBox="0 0 24 24"><path d="M12 0C8.74 0 8.33.01 7.05.07 2.92.24 1.02 1.92.07 5.95.01 7.23 0 7.64 0 12s.01 4.77.07 6.05c.17 4.03 1.85 5.93 5.88 6.1 1.28.06 1.69.07 5.05.07s3.77-.01 5.05-.07c4.03-.17 5.71-1.87 5.88-6.1.06-1.28.07-1.69.07-5.05s-.01-4.77-.07-6.05c-.17-4.03-1.85-5.71-5.88-6.1C15.77.01 15.36 0 12 0zm0 2.16c3.31 0 3.72.01 5.02.07 2.99.14 4.48 1.59 4.62 4.62.06 1.3.07 1.71.07 5.02s-.01 3.72-.07 5.02c-.14 2.99-1.59 4.48-4.62 4.62-1.3.06-1.71.07-5.02.07s-3.72-.01-5.02-.07c-2.99-.14-4.48-1.59-4.62-4.62-.06-1.3-.07-1.71-.07-5.02s.01-3.72.07-5.02c.14-2.99 1.59-4.48 4.62-4.62 1.3-.06 1.71-.07 5.02-.07zm0 3.34c-3.31 0-6 2.69-6 6s2.69 6 6 6 6-2.69 6-6-2.69-6-6-6zm0 9.84c-2.13 0-3.84-1.72-3.84-3.84s1.71-3.84 3.84-3.84 3.84 1.72 3.84 3.84-1.71 3.84-3.84 3.84zm6.36-12.36c0 .78-.63 1.41-1.41 1.41s-1.41-.63-1.41-1.41.63-1.41 1.41-1.41 1.41.63 1.41 1.41z"/></svg>
+</a> 
+          </div>  
+        </div>
+  
+        <!-- Quick Links Column -->
+        <div class="rhx-footer-links">
+          <h4 class="rhx-links-title">Quick Links</h4>
+          <ul class="rhx-links-list">
+            <li><a href="#home" class="rhx-footer-link">Home</a></li>
+            <li><a href="#about" class="rhx-footer-link">About</a></li>
+            <li><a href="#services" class="rhx-footer-link">Services</a></li>
+            <li><a href="#portfolio" class="rhx-footer-link">Blog</a></li>
+            <li><a href="#features" class="rhx-footer-link">Features</a></li>
+            <li><a href="#contact" class="rhx-footer-link">Contact</a></li>
+          </ul>
+        </div>
+  
+        <!-- Our Services Column -->
+        <div class="rhx-footer-links">
+          <h4 class="rhx-links-title">Our Solutions</h4>
+          <ul class="rhx-links-list">
+            <li><a href="#features" class="rhx-footer-link">AI Waste Detection</a></li>
+            <li><a href="#features" class="rhx-footer-link">Smart Disposal</a></li>
+            <li><a href="#features" class="rhx-footer-link">Eco Dashboard</a></li>
+            <li><a href="#features" class="rhx-footer-link">Gamification</a></li>
+            <li><a href="#features" class="rhx-footer-link">Self-Learning AI</a></li>
+            <li><a href="#features" class="rhx-footer-link">Leaderboards</a></li>
+          </ul>
+        </div>
+  
+        <!-- Contact Us Column -->
+        <div class="rhx-footer-links">
+          <h4 class="rhx-links-title">Contact Us</h4>
+          <ul class="rhx-links-list">
+            <li class="rhx-contact-item">
+              <svg class="rhx-contact-icon" viewBox="0 0 24 24">
+                <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"/>
+                <path d="M22 6l-10 7L2 6"/>
+              </svg>
+              <a href="mailto:recycloai20@gmail.com" class="rhx-footer-link">recycloai20@gmail.com</a>
+            </li>
+            <li class="rhx-contact-item">
+              <svg class="rhx-contact-icon" viewBox="0 0 24 24">
+                <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+              </svg>
+              <a href="tel:+254769257881" class="rhx-footer-link">+254 769 257881</a>
+            </li>
+          </ul>
+        </div>
+  
+        <!-- Affiliates Column -->
+        <div class="rhx-footer-links">
+          <h4 class="rhx-links-title">Our Affiliates</h4>
+          <ul class="rhx-links-list">
+            <li><a href="https://jhubafrica.com/" class="rhx-footer-link">JHUB</a></li>
+            <li><a href="https://www.jkuat.ac.ke/" class="rhx-footer-link">JKUAT</a></li>
+          </ul>
+        </div>
+      </div>
+
+      <div class="rhx-footer-bottom">
+        <p class="rhx-copyright">&copy; RecycloAI. All rights reserved.<span id="year"></span></p>
+      </div>
+    </div>
+</footer>
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+  <script>
+    localStorage.removeItem('darkMode');
+  </script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
