@@ -410,6 +410,39 @@ navbar {
   transition: var(--transition-1);
 }
 
+.navbar {
+  display: flex;
+  justify-content: flex-end; /* align all content to the right */
+  padding: 10px 20px;
+  background-color: white;
+}
+
+.nav-right {
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  flex-wrap: wrap; /* wraps on small screens */
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background-color: #90ee90;
+  color: black;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap; /* prevents breaking into two lines */
+}
+
+/* Optional: Improve layout for small screens */
+@media (max-width: 600px) {
+  .nav-right {
+    justify-content: flex-end;
+    gap: 10px;
+  }
+}
+
+
 
 .navbar-link:is(:hover, :focus) { color: var(--go-green); }
 
