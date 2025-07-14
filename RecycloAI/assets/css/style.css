@@ -191,6 +191,16 @@ body {
 
 .btn-primary:is(:hover, :focus) { background-color: var(--rich-black-fogra-29-1); }
 
+.download-btn {
+  background-color: var(--go-green);
+  color: var(--white);
+  padding: 12px 24px;
+  border-radius: var(--radius-5);
+  font-weight: var(--fw-600);
+  text-transform: uppercase;
+  transition: var(--transition-1);
+}
+
 .flex-btn {
   display: flex;
   align-items: center;
@@ -424,15 +434,7 @@ navbar {
   flex-wrap: wrap; /* wraps on small screens */
 }
 
-.download-btn {
-  padding: 10px 20px;
-  background-color: #90ee90;
-  color: black;
-  border-radius: 5px;
-  text-decoration: none;
-  font-weight: bold;
-  white-space: nowrap; /* prevents breaking into two lines */
-}
+
 
 /* Optional: Improve layout for small screens */
 @media (max-width: 600px) {
@@ -3000,4 +3002,14 @@ body.dark-mode .eco-collaborator-image img {
 
   .faq-card .card-action.active + .card-content { max-height: 200px; }
 
+}
+
+.download-btn {
+  padding: 10px 20px;
+  background-color:--go-green;
+  color: white;
+  border-radius: 5px;
+  text-decoration: none;
+  font-weight: bold;
+  white-space: nowrap; /* prevent breaking into two lines */
 }
